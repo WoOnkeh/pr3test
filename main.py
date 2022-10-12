@@ -95,7 +95,7 @@ def newgame():
     trumpsuit = trumpcard[-2]
     deck.pop(0)
 
-def display_test():
+def display():
     print(f"\nCards left: {len(deck)}")
     print(f"Trump suit: {trumpsuit}")
     print(f"Bot's hand: {len(bothand)}")
