@@ -108,7 +108,7 @@ def display():
     print(f'Attacking cards: {attackingcards}')
     print(f'Defending cards: {defendingcards}')
 
-def playerattack_test():
+def playerattack():
     global playedcards
     global attackingcards
     global defendingcards
@@ -301,7 +301,7 @@ def playerattack_test():
 
 
 
-def botattack_test():
+def botattack():
     global attackingcards
     global defendingcards
     global playedcards
@@ -452,11 +452,11 @@ while True:
     time.sleep(5)
 
     if player_turn == True:
-        playerattack_test()
+        playerattack()
 
 
     else:
-        botattack_test()
+        botattack()
 
     if len(playerhand) == 0:
         print("\nPlayer won! Bot is a durak")
