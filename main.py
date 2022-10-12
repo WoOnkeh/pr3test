@@ -95,6 +95,13 @@ def newgame():
     trumpsuit = trumpcard[-2]
     deck.pop(0)
 
+def display_test():
+    print(f"\nCards left: {len(deck)}")
+    print(f"Trump suit: {trumpsuit}")
+    print(f"Bot's hand: {len(bothand)}")
+    print(f"Player's hand: {(playerhand)}\n")
+    print(f'Attacking cards: {attackingcards}')
+    print(f'Defending cards: {defendingcards}')
 
 playedcards = []
 attackingcards = []
@@ -103,4 +110,3 @@ defendingcards = []
 
 
 newgame()
-
