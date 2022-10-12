@@ -15,7 +15,7 @@ ranks = {"2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 1
 player_turn = True ############################################################################
 
 
-def newgame_test():
+def newgame():
 
     global club
     global spade
@@ -102,5 +102,5 @@ defendingcards = []
 
 
 
-newgame_test()
+newgame()
 
